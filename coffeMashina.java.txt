@@ -1,0 +1,36 @@
+package mentor;
+
+import java.util.Scanner;
+
+public class CoffeMashina {
+    public static void main(String[] args) {
+
+
+        Scanner scanner = new Scanner(System.in);
+        int coffeMashina = scanner.nextInt();
+
+        switch (coffeMashina) {
+
+            case 1:
+                System.out.println("1.Эспрессо - готовится ");
+                break;
+
+            case 2:
+                System.out.println("2.Американо - готовится: эспрессо готовится и добовляется вода");
+                break;
+
+            case 3:
+                System.out.println("3.Капучино - готовится: эспрессо готовится и добовляется вспененное молоко");
+                break;
+            case 4:
+                System.out.println("4.Чай - выбирайте пакетик и добавляеся вода");
+                break;
+            default:
+                System.out.println("Такой программы несушествует");
+
+
+        }
+
+
+    }
+}
